@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Akash Thawait — Lead Engineer specializing in scalable cloud-native, data-driven, and AI solutions. GCP, AWS, Go, Node.js, Python. Pune, India.">
-  <meta name="theme-color" content="#eef4fa">
+  <meta name="theme-color" content="#07080d">
   <title>Akash Thawait | Lead Engineer & Cloud Architect</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,7 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
 
   <header class="site-header">
     <div class="header-inner">
@@ -47,11 +48,17 @@
 
   <main id="main">
     <section class="hero" aria-labelledby="hero-heading">
-      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-bg" aria-hidden="true">
+        <span class="hero-bg-layer hero-bg-layer-deep" data-parallax="0.05"></span>
+        <span class="hero-bg-layer hero-bg-layer-back" data-parallax="0.15"></span>
+        <span class="hero-bg-layer hero-bg-layer-mid" data-parallax="0.28"></span>
+        <span class="hero-bg-layer hero-bg-layer-front" data-parallax="0.42"></span>
+      </div>
       <div class="hero-content">
+        <img class="hero-avatar" src="assets/profile.png" alt="Portrait of Akash Thawait" width="160" height="160" decoding="async" fetchpriority="high">
         <p class="eyebrow">Lead Engineer · Pune, India</p>
         <h1 id="hero-heading" class="hero-title">Akash Thawait</h1>
-        <p class="hero-tagline">Architecting Scalable · Cloud-Native · Data-Driven AI Solutions</p>
+        <p class="hero-tagline">Architecting <span class="accent-word">Scalable</span> · <span class="accent-word">Cloud-Native</span> · <span class="accent-word">Data-Driven AI</span> Solutions</p>
         <p class="hero-subtitle">
           Cloud-native platforms, system design, and scalable engineering with Go, Node.js, and Python on AWS and Google Cloud.
         </p>
@@ -96,22 +103,30 @@
           </li>
         </ul>
 
-        <div class="hero-contact-bar">
-          <a class="hero-contact-link" href="https://www.linkedin.com/in/akashthawait/" rel="noopener noreferrer" target="_blank">linkedin.com/in/akashthawait</a>
-          <span class="hero-contact-sep" aria-hidden="true">·</span>
-          <a class="hero-contact-link" href="https://github.com/akashthawaitcc" rel="noopener noreferrer" target="_blank">github.com/akashthawaitcc</a>
-          <span class="hero-contact-sep" aria-hidden="true">·</span>
+        <div class="hero-meta">
           <span class="hero-contact-loc">
             <svg class="hero-pin" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
             Pune, India
           </span>
         </div>
 
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="https://www.linkedin.com/in/akashthawait/" rel="noopener noreferrer" target="_blank">LinkedIn profile</a>
-          <a class="btn btn-secondary" href="https://github.com/akashthawaitcc" rel="noopener noreferrer" target="_blank">GitHub</a>
-          <a class="btn btn-secondary" href="mailto:aakashthawait@gmail.com">Email</a>
-        </div>
+        <ul class="social-icons" aria-label="Social profiles">
+          <li>
+            <a class="social-icon" href="https://www.linkedin.com/in/akashthawait/" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn profile">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.37V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.26 2.37 4.26 5.45zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45C23.2 24 24 23.23 24 22.28V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="social-icon" href="https://github.com/akashthawaitcc" rel="noopener noreferrer" target="_blank" aria-label="GitHub profile">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.1c-3.2.69-3.88-1.37-3.88-1.37-.52-1.34-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.51-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="social-icon" href="mailto:aakashthawait@gmail.com" aria-label="Send email">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.24-8 5-8-5V6l8 5 8-5z"/></svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -119,20 +134,71 @@
       <div class="section-head">
         <h2>About</h2>
         <p class="lede">
-          Lead Engineer with <strong>9+ years</strong> of experience delivering resilient platforms,
-          large-scale migrations, and engineering programs aligned to business outcomes.
+          Lead Engineer with <strong>9+ years</strong> designing and shipping resilient, cloud-native platforms — from
+          OTT video streaming at scale to multi-cloud migrations, AI-enabled systems, and developer platforms.
+          I bridge architecture, hands-on engineering, and delivery leadership.
         </p>
       </div>
+
+      <ul class="about-stats" aria-label="At a glance">
+        <li>
+          <span class="about-stat-num">9+</span>
+          <span class="about-stat-label">Years building distributed systems</span>
+        </li>
+        <li>
+          <span class="about-stat-num">7</span>
+          <span class="about-stat-label">Active cloud &amp; AI certifications</span>
+        </li>
+        <li>
+          <span class="about-stat-num">2</span>
+          <span class="about-stat-label">Cloud platforms — GCP &amp; AWS</span>
+        </li>
+        <li>
+          <span class="about-stat-num">PB</span>
+          <span class="about-stat-label">Scale data migration &amp; OTT delivery</span>
+        </li>
+      </ul>
+
+      <div class="about-grid">
+        <article class="about-card">
+          <h3>Architecture &amp; Cloud</h3>
+          <p>
+            System design for cloud-native and cloud-agnostic workloads on <strong>GCP</strong> and <strong>AWS</strong>.
+            Microservices, event-driven patterns, Kubernetes, Terraform, and pragmatic trade-offs between
+            cost, reliability, and time-to-market.
+          </p>
+        </article>
+        <article class="about-card">
+          <h3>Data &amp; Performance</h3>
+          <p>
+            Database design, migration, and tuning for high-throughput systems. OTT streaming pipelines,
+            Elasticsearch, RabbitMQ, and observability strategies that turn production incidents into
+            measurable SLO improvements.
+          </p>
+        </article>
+        <article class="about-card">
+          <h3>AI &amp; Automation</h3>
+          <p>
+            Hands-on with Generative AI integration patterns, retrieval grounding, and search relevance
+            tuning. Google-certified Generative AI Leader, applying LLM workflows to internal tooling and
+            customer-facing products.
+          </p>
+        </article>
+        <article class="about-card">
+          <h3>Leadership &amp; Delivery</h3>
+          <p>
+            Lead engineering teams through discovery, estimation, code review, and release. Mentor ICs,
+            partner with product, and contribute to <strong>presales</strong> — translating ambiguous
+            technical requirements into clear scope, risk, and customer value.
+          </p>
+        </article>
+      </div>
+
       <div class="prose">
         <p>
-          I specialize in <strong>application architecture</strong>, <strong>cloud-native</strong> and
-          <strong>cloud-agnostic</strong> solutions, and <strong>database design, migration, and performance</strong>.
-          I have a strong track record in <strong>team leadership</strong>, mentoring, and delivery—and I regularly
-          contribute to <strong>presales</strong> by translating complex technical requirements into clear value for clients.
-        </p>
-        <p>
-          I stay current with emerging trends and enjoy collaborating with teams that care about craft,
-          reliability, and measurable impact.
+          I work best with teams that care about <strong>craft</strong>, <strong>reliability</strong>, and
+          <strong>measurable impact</strong> — and I stay close to emerging cloud, data, and AI tooling so the
+          architecture stays honest as the problem space evolves.
         </p>
       </div>
     </section>
@@ -259,49 +325,49 @@
           <h3>Professional Cloud Architect</h3>
           <p class="cert-issuer">Google Cloud</p>
           <p class="cert-dates">Issued Nov 2024 · Expires Nov 2026</p>
-          <a class="cert-link" href="https://www.credly.com/badges/046fd40b-8e9a-4983-82b6-caf08aa4ed19" rel="noopener noreferrer" target="_blank">View on Credly</a>
+          <a class="cert-link" href="https://www.credly.com/badges/046fd40b-8e9a-4983-82b6-caf08aa4ed19" rel="noopener noreferrer" target="_blank">Verify on Credly<svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
         </li>
         <li class="cert-card">
           <h3>Professional Cloud Developer</h3>
           <p class="cert-issuer">Google Cloud</p>
           <p class="cert-dates">Issued Feb 2026 · Expires Feb 2028</p>
-          <a class="cert-link" href="https://www.credly.com/badges/f56d20e3-8dd2-45fa-98d1-45ff34ad4e52" rel="noopener noreferrer" target="_blank">View on Credly</a>
+          <a class="cert-link" href="https://www.credly.com/badges/f56d20e3-8dd2-45fa-98d1-45ff34ad4e52" rel="noopener noreferrer" target="_blank">Verify on Credly<svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
         </li>
         <li class="cert-card">
           <h3>Generative AI Leader</h3>
           <p class="cert-issuer">Google</p>
           <p class="cert-dates">Issued Dec 2025 · Expires Dec 2028</p>
-          <a class="cert-link" href="https://www.credly.com/badges/d1dbcafe-c4de-4174-928a-49e9160537c7" rel="noopener noreferrer" target="_blank">View on Credly</a>
+          <a class="cert-link" href="https://www.credly.com/badges/d1dbcafe-c4de-4174-928a-49e9160537c7" rel="noopener noreferrer" target="_blank">Verify on Credly<svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
         </li>
         <li class="cert-card">
           <h3>Configure AI Applications to optimize search results</h3>
           <p class="cert-issuer">Google</p>
           <p class="cert-dates">Issued Jul 2025</p>
-          <a class="cert-link" href="https://www.credly.com/badges/bff1c020-8a8a-46c4-96d6-083f647677bb" rel="noopener noreferrer" target="_blank">View on Credly</a>
+          <a class="cert-link" href="https://www.credly.com/badges/bff1c020-8a8a-46c4-96d6-083f647677bb" rel="noopener noreferrer" target="_blank">Verify on Credly<svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
         </li>
         <li class="cert-card">
           <h3>Associate Cloud Engineer</h3>
           <p class="cert-issuer">Google Cloud</p>
           <p class="cert-dates">Issued Jan 2023 · Expires Jan 2026</p>
-          <a class="cert-link" href="https://www.credly.com/badges/f467612f-2fc5-4a6f-8ca2-861e617933d5" rel="noopener noreferrer" target="_blank">View on Credly</a>
+          <a class="cert-link" href="https://www.credly.com/badges/f467612f-2fc5-4a6f-8ca2-861e617933d5" rel="noopener noreferrer" target="_blank">Verify on Credly<svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
         </li>
         <li class="cert-card">
           <h3>Cloud Digital Leader</h3>
           <p class="cert-issuer">Google Cloud</p>
           <p class="cert-dates">Issued Jan 2023 · Expires Jan 2026</p>
-          <a class="cert-link" href="https://credential.net/4f0de38f-afed-4652-9933-8b4767da2caa" rel="noopener noreferrer" target="_blank">View credential</a>
+          <a class="cert-link" href="https://www.credly.com/badges/905230ca-1fa0-4004-b679-7cd93f590901/public_url" rel="noopener noreferrer" target="_blank">Verify on Credly<svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
         </li>
         <li class="cert-card">
           <h3>Microsoft Certified: Azure Developer Associate</h3>
           <p class="cert-issuer">Microsoft</p>
           <p class="cert-dates">Issued Dec 2022 · Expired Dec 2023</p>
-          <a class="cert-link" href="https://www.credly.com/badges/8628463e-026e-4c61-ad23-ac014a349abd" rel="noopener noreferrer" target="_blank">View on Credly</a>
+          <a class="cert-link" href="https://www.credly.com/badges/8628463e-026e-4c61-ad23-ac014a349abd" rel="noopener noreferrer" target="_blank">Verify on Credly<svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
         </li>
         <li class="cert-card">
           <h3>Confident Communication for Introverts</h3>
           <p class="cert-issuer">LinkedIn Learning</p>
           <p class="cert-dates">Issued Jun 2024</p>
-          <a class="cert-link" href="https://www.linkedin.com/learning/certificates/4ff8af4ba8939c5b9e6e6f8934d4b2d026810a4b0415ca8d3bfd38ab4be7bb9b" rel="noopener noreferrer" target="_blank">View certificate</a>
+          <a class="cert-link" href="https://www.linkedin.com/learning/certificates/4ff8af4ba8939c5b9e6e6f8934d4b2d026810a4b0415ca8d3bfd38ab4be7bb9b" rel="noopener noreferrer" target="_blank">Verify certificate<svg class="ext-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
         </li>
       </ul>
     </section>
@@ -389,22 +455,114 @@
           Available for substantive discussion on cloud migrations, solution architecture, backend engineering,
           AI-enabled platforms, and lead engineering engagements.
         </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="mailto:aakashthawait@gmail.com">Send email</a>
-          <a class="btn btn-secondary" href="https://www.linkedin.com/in/akashthawait/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
-          <a class="btn btn-secondary" href="https://github.com/akashthawaitcc" rel="noopener noreferrer" target="_blank">GitHub</a>
-        </div>
+        <ul class="social-icons social-icons-lg" aria-label="Contact channels">
+          <li>
+            <a class="social-icon" href="mailto:aakashthawait@gmail.com" aria-label="Send email">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.24-8 5-8-5V6l8 5 8-5z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="social-icon" href="https://www.linkedin.com/in/akashthawait/" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn profile">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.37V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.59 0 4.26 2.37 4.26 5.45zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45C23.2 24 24 23.23 24 22.28V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="social-icon" href="https://github.com/akashthawaitcc" rel="noopener noreferrer" target="_blank" aria-label="GitHub profile">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.1c-3.2.69-3.88-1.37-3.88-1.37-.52-1.34-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.51-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.4-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <p>© <span id="year"></span> Akash Thawait. All rights reserved.</p>
-    <p class="footer-note">Summary based on public LinkedIn profile; authoritative dates and titles remain on <a href="https://www.linkedin.com/in/akashthawait/" rel="noopener noreferrer" target="_blank">LinkedIn</a>.</p>
   </footer>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    /* —— Section "current page" tracking (snap-driven feel) —— */
+    if ('IntersectionObserver' in window) {
+      var pageSections = document.querySelectorAll('.section');
+      var current = null;
+      var pageIO = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.35) {
+            if (current && current !== entry.target) current.classList.remove('is-current');
+            entry.target.classList.add('is-current');
+            current = entry.target;
+          }
+        });
+      }, { threshold: [0.35, 0.55, 0.75], rootMargin: '-10% 0px -10% 0px' });
+      pageSections.forEach(function (s) { pageIO.observe(s); });
+    }
+
+    /* —— Reveal on scroll —— */
+    if (!reducedMotion && 'IntersectionObserver' in window) {
+      var revealTargets = document.querySelectorAll('.section-head, .timeline-item, .cert-card, .project-card, .quote-card, .edu-card');
+      revealTargets.forEach(function (el) { el.classList.add('reveal'); });
+
+      var staggerGroups = document.querySelectorAll('.skill-tags, .cert-grid, .project-grid, .timeline, .quote-grid, .two-col, .about-stats, .about-grid');
+      staggerGroups.forEach(function (el) { el.classList.add('reveal-stagger'); });
+
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-in');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+
+      document.querySelectorAll('.reveal, .reveal-stagger').forEach(function (el) { io.observe(el); });
+    }
+
+    /* —— Scroll progress + header state + layered parallax —— */
+    var progressBar = document.querySelector('.scroll-progress');
+    var header = document.querySelector('.site-header');
+    var parallaxLayers = document.querySelectorAll('[data-parallax]');
+    var sections = document.querySelectorAll('.section');
+    var ticking = false;
+    var vh = window.innerHeight;
+    window.addEventListener('resize', function () { vh = window.innerHeight; }, { passive: true });
+
+    function onScroll() {
+      var sy = window.scrollY || window.pageYOffset;
+      var max = (document.documentElement.scrollHeight - window.innerHeight) || 1;
+      var p = Math.min(1, Math.max(0, sy / max));
+      if (progressBar) progressBar.style.transform = 'scaleX(' + p + ')';
+      if (header) header.classList.toggle('is-scrolled', sy > 16);
+
+      if (!reducedMotion) {
+        for (var i = 0; i < parallaxLayers.length; i++) {
+          var layer = parallaxLayers[i];
+          var speed = parseFloat(layer.dataset.parallax) || 0.2;
+          layer.style.transform = 'translate3d(0,' + (sy * speed) + 'px,0)';
+        }
+
+        for (var j = 0; j < sections.length; j++) {
+          var sec = sections[j];
+          var rect = sec.getBoundingClientRect();
+          var center = rect.top + rect.height / 2;
+          var rel = (vh / 2 - center) / vh;
+          sec.style.setProperty('--orb-y', (rel * 80) + 'px');
+          sec.style.setProperty('--orb-y2', (rel * -60) + 'px');
+        }
+      }
+      ticking = false;
+    }
+
+    window.addEventListener('scroll', function () {
+      if (!ticking) {
+        window.requestAnimationFrame(onScroll);
+        ticking = true;
+      }
+    }, { passive: true });
+    onScroll();
 
     var toggle = document.querySelector('.nav-toggle');
     var mobile = document.getElementById('nav-mobile');
